@@ -6,10 +6,20 @@
   {
   width: auto;
   height: auto;
-  background-color: #69b246;
+  background-color: #020079;
     color: white;
       padding: 20px;
 }
+
+
+
+
+
+
+
+
+
+
 
 p {
   height: 20px;
@@ -51,7 +61,7 @@ p4 {
 
 .step {
   width: 880px;
-  height: 105px;
+  height: 130px;
   border: solid 2px #2735b4;
   background-color: #dde9f3;
   padding: 10px;
@@ -150,18 +160,18 @@ p5{
   padding:30px;
  }
 
-.vocabwords {
-  width: 320px;
-  height: 300px;
+.vw{
+  width: 0px;
+  height: 0px;
   border: solid 2px #e0e0e0;
   background-color: #dde9f3;
   margin-left: auto;
              }
 
 
-.rhymes{
-  width: 320px;
-  height: 300px;
+.rh{
+  width: 0px;
+  height: 0px;
   border: solid 2px #e0e0e0;
   background-color: #dde9f3;
   margin-left: auto;
@@ -171,7 +181,15 @@ p5{
 body {
   margin: auto;
   padding: 10px;
-     }
+  background-image: url('https://www.wallpaperflare.com/static/415/188/1015/microphone-speech-stage-performance-space-event-wallpaper.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;   
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-20%)
+
+}
 /*
 .purpleMic {
   padding: 25px 22.5px;
@@ -198,42 +216,41 @@ body {
  }
 
 #purpleMic0{
-  top: -580px;
+  top: 103px;
 }
 
 
 #purpleMic1{
-  top: -537px;
+  top: 145px;
 }
 
 #purpleMic2{
-  top: -494px;
+  top: 189px;
 }
 
 
 
 #purpleMic3{
-  top: -450px;
+  top: 229px;
 }
 
-
-
-
-
-p9{
-  font-size: 35px;
-  font-weight: 700;
-  
-}
 
 
 #purpleMic4{
-  top: -410px;
+  top: 272px;
 }
 
 
 #audio{
   position: absolute;
   top: 1000px;
+  
+}
+
+
+p9{
+  font-size: 35px;
+  font-weight: 700;
+  color:white;
   
 }
